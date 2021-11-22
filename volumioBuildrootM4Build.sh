@@ -3,7 +3,7 @@ if [ ! -d /tmp ]; then
   echo couldn\'t find the /tmp directory, are you running on Linux ?
 else
   TARGET_DIR="/tmp/buildroot.volumio"
-  REPONAME="NanoPi.Neo4.buildroot.external"
+  REPONAME="buildroot.rk3399.external"
   BUILDROOT_REPO="https://github.com/flatmax/$REPONAME.git"
   BUILDROOT_REPO_BRANCH="volumio"
   BR_REPONAME="buildroot.volumio"

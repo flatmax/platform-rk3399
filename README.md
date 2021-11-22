@@ -16,7 +16,7 @@ make
 
 # developing
 
-Alter code in /tmp/buildroot.volumio/NanoPi.Neo4.buildroot.external
+Alter code in /tmp/buildroot.volumio/buildroot.rk3399.external
 As this is in the /tmp directory, you may want to clone the repo somewhere that wont dissappear when you reboot.
 
 Then follow the last few lines of code in volumioBuildrootM4Build.sh to first run setup.sh. Then lastly make again.
